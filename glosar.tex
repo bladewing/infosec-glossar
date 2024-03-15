@@ -1,0 +1,29 @@
+\documentclass{scrartcl}
+
+\usepackage{fontspec} % For custom fonts
+\usepackage{polyglossia} % For multilingual support
+\setdefaultlanguage{german}
+
+\usepackage{xltabular} % For tables that span multiple pages
+\usepackage{booktabs} % For better looking tables
+
+\title{Glossar Informationssicherheit und Datenschutz}
+\author{Prof. Dr. Lukas Iffländer}
+
+\begin{document}
+
+\maketitle
+
+\begin{xltabular}{\textwidth}{lX}
+    \toprule
+    Begriff & Definition \\
+    \midrule
+    \endhead
+    \bottomrule
+    \endfoot
+    Angriffsfläche & Die Angriffsfläche ist die Gesamtheit aller Angriffsvektoren, die ein System angreifbar machen. \\
+    Angriffsvektor & Ein Angriffsvektor ist eine Methode, mit der ein Angreifer ein System angreifen kann. \\
+    DDoS & Distributed Denial of Service. Ein Angriff, bei dem ein Server oder eine Infrastruktur durch eine Vielzahl von Anfragen überlastet wird. \\
+\end{xltabular}
+
+\end{document}
